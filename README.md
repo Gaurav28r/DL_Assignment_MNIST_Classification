@@ -16,8 +16,34 @@ This project implements a feedforward neural network using TensorFlow and Keras 
 6. **5-Image Prediction Test:** The trained model is tested on 5 individual handwritten images, comparing actual labels against the model's predictions.
 7. **Architectural Experimentation:** An experimental model is created by increasing the hidden layer neurons from (128, 32) to (256, 64) to compare performance.
 
+## Visualizations & Outputs
+
+### 1. Sample Data
+<img width="446" height="482" alt="Screenshot 2026-09-20 190511" src="https://github.com/user-attachments/assets/311262a1-6a96-4990-a87f-e700d2938959" />
+
+### 2. Model Architecture
+<img width="662" height="312" alt="Screenshot 2026-09-20 190605" src="https://github.com/user-attachments/assets/64b65a30-7aa9-43ba-8129-a598740237be" />
+
+
+### 3. Model Training Curves
+**Training vs. Validation Accuracy**
+<img width="872" height="507" alt="Screenshot 2026-09-20 190724" src="https://github.com/user-attachments/assets/40cf6a7e-80ca-4701-998d-34cdee298c69" />
+
+
+**Training vs. Validation Loss**
+<img width="862" height="523" alt="Screenshot 2026-09-20 190826" src="https://github.com/user-attachments/assets/47347b40-1c7b-42bc-b86f-1bf78a83b132" />
+
+
+
+### 4. Prediction on Test Images
+<img width="1662" height="408" alt="Screenshot 2026-09-20 190916" src="https://github.com/user-attachments/assets/f3bce098-080b-4e93-b7c9-ea8330bccd13" />
+
+
 ## Results & Comparison
 Both models performed exceptionally well on the test dataset. The experimental model with increased neurons showed a slight improvement in overall accuracy and a reduction in test loss.
+
+<img width="386" height="121" alt="Screenshot 2026-09-21 000248" src="https://github.com/user-attachments/assets/aabdfe12-7c01-4995-8063-c514580973df" />
+
 
 | Model | Hidden Layers | Epochs | Test Accuracy | Test Loss |
 | :--- | :--- | :--- | :--- | :--- |
